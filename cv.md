@@ -29,3 +29,11 @@ employment.
 
 # My projects:
 * [Task manager](https://ivan-kevra.github.io/todolist/)
+
+# Education:
+* Belarus State Economic University
++ Faculty of Finance and Banking
+
+# Languages:
+* Russian - native speaker
+* English - B2
