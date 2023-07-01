@@ -13,3 +13,19 @@ I'm continuously improving my English, studying new
 technologies and solving tasks on Codewars in my spare
 time. Ready to consider project work and full-time
 employment.
+
+# My strength:
++ Responsibility
++ Quick learner
++ Full immersion in the essence of the problems
+
+# Skills:
+* React
+* Typescript
+* Javascript
+* GIT/GitHub
+* Redux toolkit
+* HTML, CSS
+
+# My projects:
+* [Task manager](https://ivan-kevra.github.io/todolist/)
