@@ -1,3 +1,5 @@
+/* HEADER */
+
 header {
     background-color: #bdfaaf;
 }
@@ -17,6 +19,8 @@ nav li {
     margin-right: 20px;
 }
 
+/* MAIN */
+
 main {
     background-color: aquamarine;
     display: flex;
@@ -24,9 +28,11 @@ main {
 }
 
 img {
-    width: 30%;
-    height: 30%;
+    width: 50%;
+    height: auto;
 }
+
+/* FOOTER */
 
 footer {
     background-color: #bdfaaf;
