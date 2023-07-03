@@ -1,0 +1,39 @@
+header {
+    background-color: #bdfaaf;
+}
+
+nav {
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+main {
+    background-color: aquamarine;
+    display: flex;
+    justify-content: space-around;
+}
+
+img {
+    width: 30%;
+    height: 30%;
+}
+
+footer {
+    background-color: #bdfaaf;
+    text-align: center;
+}
+
+footer img {
+    width: 100px;
+    height: 100px;
+}
