@@ -6,6 +6,7 @@ header {
 
 nav {
     text-align: center;
+    background-color: #ccfad0;
 }
 
 nav ul {
@@ -21,21 +22,40 @@ nav li {
 
 /* MAIN */
 
+.info-title {
+    margin: 30px;
+}
+
 main {
-    background-color: aquamarine;
     display: flex;
     justify-content: space-around;
 }
 
-img {
-    width: 50%;
-    height: auto;
+main nav {
+    margin: 30px;
 }
 
 .personal {
     background-color: aqua;
+    width: 25%;
+    text-align: center;
 }
 
+img {
+    width: 80%;
+    height: auto;
+}
+
+.info {
+    background-color: #78eec6;
+    width: 75%
+}
+
+.code {
+    background-color: #ccfad0;
+    text-align: center;
+    margin: 30px;
+}
 
 /* FOOTER */
 
