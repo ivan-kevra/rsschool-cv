@@ -2,86 +2,104 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>CV</title>
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
 <header>
-    <nav>
-        <ul>
-            <li>About me</li>
-            <li>Contacts</li>
-            <li>Projects</li>
-            <li>Languages</li>
-            <li>Education</li>
-            <li>Code example</li>
-        </ul>
-    </nav>
-</header>
-<main class="cv">
-    <div class="personal">
-        <img src="./images/avatar.jpg" alt="avatar">
-        <nav>
-            <h3>Contacts</h3>
-            <ul>
-                <li>Phone: +375292318470</li>
-                <li>E-mail: vanyakevra@gmail.com</li>
-                <li>Discord: Ivan Kevra</li>
-            </ul>
-        </nav>
-        <nav>
-            <h3>Skills</h3>
-            <ul>
-                <li>React</li>
-                <li>Typescript</li>
-                <li>Javascript</li>
-                <li>GIT/GitHub</li>
-                <li>Redux toolkit</li>
-                <li>HTML, CSS</li>
+    <div class="container">
+        <nav class="nav">
+            <ul class="nav-list">
+                <li class="nav-item"><a href="#profile" class="nav-link">Profile</a></li>
+                <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+                <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+                <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                <li class="nav-item"><a href="#code" class="nav-link">Code example</a></li>
             </ul>
         </nav>
     </div>
-    <div class="info">
-        <div class="info-title">
-            <h1>Ivan Kevra</h1>
-            <h2>Frond-end developer</h2>
+
+</header>
+<main>
+    <div class="main-container">
+        <section class="section" id="profile">
+            <h1 class="section-title">Ivan Kevra</h1>
+            <h2 class="section-title">Frond-end developer</h2>
+            <img src="assets/images/avatar.jpg" alt="avatar">
+        </section>
+        <section class="section" id="contacts">
+            <h3 class="section-title">Contacts</h3>
+            <nav class="nav">
+                <ul>
+                    <li class="nav-item">Phone: +375292318470</li>
+                    <li class="nav-item">E-mail: vanyakevra@gmail.com</li>
+                    <li class="nav-item">Discord: Ivan Kevra</li>
+                </ul>
+            </nav>
+        </section>
+        <section class="section" id="summary">
+            <h3 class="section-title">Summary</h3>
             I'm a front-end developer with experience in creating SPA
             using React, Redux, TypeScript, JavaScript, CSS, HTML.
             I'm continuously improving my English, studying new
             technologies and solving tasks on Codewars in my spare
             time. Ready to consider project work and full-time
             employment.
-        </div>
-        <nav>
-            <h3>Projects</h3>
-            <ul>
-                <li>
-                    <a href="https://ivan-kevra.github.io/todolist/">
-                        Task-manager
-                    </a>
-                </li>
-                <li>
-                    <a href="https://github.com/ivan-kevra/Social-network">
-                        Social network
-                    </a>
-                </li>
-            </ul>
-        </nav>
-        <nav>
-            <h3>Languages</h3>
-            <ul>
-                <li>Russian - native speaker</li>
-                <li>English - B2</li>
-            </ul>
-        </nav>
-        <nav>
-            <h3>Education</h3>
-            <ul>
-                <li>Belarus State Economic University: Faculty of Finance and Banking</li>
-            </ul>
-        </nav>
-        <section class="code">
-            <h3>Code example</h3>
+        </section>
+        <section class="section" id="skills">
+            <h3 class="section-title">Skills</h3>
+            <nav class="nav">
+                <ul>
+                    <li class="nav-item">React</li>
+                    <li class="nav-item">Typescript</li>
+                    <li class="nav-item">Javascript</li>
+                    <li class="nav-item">GIT/GitHub</li>
+                    <li class="nav-item">Redux toolkit</li>
+                    <li class="nav-item">HTML, CSS</li>
+                </ul>
+            </nav>
+        </section>
+        <section class="section" id="projects">
+            <h3 class="section-title">Projects</h3>
+            <nav class="nav">
+                <ul>
+                    <li class="nav-item">
+                        <a href="https://ivan-kevra.github.io/todolist/">
+                            Task-manager
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="https://github.com/ivan-kevra/Social-network">
+                            Social network
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </section>
+        <section class="section" id="languages">
+            <h3 class="section-title">Languages</h3>
+            <nav class="nav">
+                <ul>
+                    <li class="nav-item">Russian - native speaker</li>
+                    <li class="nav-item">English - B2</li>
+                </ul>
+            </nav>
+        </section>
+
+
+        <section class="section" id="education">
+            <h3 class="section-title">Education</h3>
+            <nav class="nav">
+                <ul>
+                    <li class="nav-item">Belarus State Economic University: Faculty of Finance and Banking</li>
+                </ul>
+            </nav>
+        </section>
+        <section class="section" id="code">
+            <h3 class="section-title">Code example</h3>
             <pre>
   <code>
     function century(year) {
@@ -93,13 +111,15 @@
         </section>
     </div>
 </main>
+
+
 <footer>
     <a href="https://github.com/ivan-kevra">
-        <img src="images/github-logo.png" alt="GitHub">
+        <img src="assets/images/github-logo.png" alt="GitHub">
     </a>
     <span>2023</span>
     <a href="https://rs.school/js-stage0/">
-        <img src="images/rss-logo.svg" alt="RSS">
+        <img src="assets/images/rss-logo.svg" alt="RSS">
     </a>
 </footer>
 </body>
