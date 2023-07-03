@@ -32,6 +32,11 @@ img {
     height: auto;
 }
 
+.personal {
+    background-color: aqua;
+}
+
+
 /* FOOTER */
 
 footer {
