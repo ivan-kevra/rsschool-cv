@@ -5,7 +5,6 @@
 
 html {
     scroll-behavior: smooth;
-
 }
 
 body {
@@ -27,11 +26,10 @@ body {
 }
 
 .section-title {
-    font-size: 20px;
-    font-weight: 400;
+    font-size: 24px;
     text-transform: uppercase;
-    letter-spacing: 5px;
-    color: #829985;
+    letter-spacing: 3px;
+    color: #0d6c55;
 }
 
 .container {
@@ -57,18 +55,13 @@ header {
 .nav-link {
     padding: 0 20px;
     line-height: 50px;
-    text-decoration: none;
-    transition: .3s;
-}
-
-.nav-link {
     color: #2543d5;
     text-decoration: none;
     transition: color 0.5s;
 }
 
 .nav-link:hover {
-    background-color: blue;
+    color: #ee3737;
 }
 
 .main-container {
@@ -78,6 +71,21 @@ header {
 
 .section {
     width: 50%;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+footer img {
+    width: 50px;
+    height: 50px;
+
+}
+
+.profile-container {
+    display: flex;
 }
 
 @media (max-width: 768px) {
